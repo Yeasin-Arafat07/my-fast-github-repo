@@ -9,6 +9,18 @@ body {
 .primary-color {
     color: #F00;
 }
+.primary-btn {
+    padding: 16px 32px;
+    background-color: #F00;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+ main section {
+    margin-top: 100px;
+}
 /* banner style */
 .banner {
     background-image: url('/image/resources/Banner Image.png');
@@ -40,7 +52,7 @@ text-align: center;
     text-align: center;
     padding-top: 100px;
 }
-.section-content >h2 {
+.red-block{
     font-size: 88px;
     font-weight: 700;
     padding-bottom: 34px;
@@ -49,7 +61,7 @@ text-align: center;
 font-size: 24px;
 font-weight: 500;
 }
-.section-content >h3 {
+.section-content, .black-block {
     color: #070211;
 font-size: 48px;
 font-weight: 700;
@@ -90,5 +102,72 @@ letter-spacing: 7.04px;
 .welcome-img{
     padding-top: 60px;
     width: 319.83px;
-height: 464.662px;
+    height: 464.662px;
+}
+/* contact section start */
+.contact {
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 0 auto;
+}
+.contact-content {
+    text-align: center;
+}
+.contact-list {
+    color: #F00;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
+.little-black {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    padding: 100px 0 48px 0;
+}
+/* offer-section start */
+.offer-section {
+    display: flex;
+    gap: 24px;
+    width: 1320px;
+    height: 482px;
+    margin: 100px auto;
+    background-color: white;
+    justify-content: space-around;
+
+}
+.offer-des {
+    padding: 0px 0 40px 0;
+}
+.offer-img{
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 50%;
+    border: 10px solid #F00;
+}
+/* holiday section */
+.holiday-section {
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    text-align: center;  
+}
+/* portfolio section */
+.portfolio-section {
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+}
+.portfolio-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    line-height: 32px; /* 160% */
+    padding-bottom: 20px;
+}
+.first-portfolio, .second-portfolio img {
+    border-radius: 16px;
 }
