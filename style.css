@@ -1,5 +1,94 @@
-div {
-    background-color: tomato;
-    margin-bottom: 10px;
-    padding: 10px;
+/* common shared style */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Merriweather', serif;
+}
+.primary-color {
+    color: #F00;
+}
+/* banner style */
+.banner {
+    background-image: url('/image/resources/Banner Image.png');
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 0 auto;
+    
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+}
+.banner-content {
+    padding-top: 150px;
+}
+.banner-tittle {
+    color: #FFF;
+    font-size: 32px;
+    text-align: center;
+
+}
+.banner-tittle2 {
+    color: #FFF;
+font-size: 72px;
+font-weight: 900;
+text-align: center;
+/* line-height: 95px; 131.944% */
+}
+/* main section work started */
+.main {
+    text-align: center;
+    padding-top: 100px;
+}
+.section-content >h2 {
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 34px;
+}
+.section-content >h5{
+font-size: 24px;
+font-weight: 500;
+}
+.section-content >h3 {
+    color: #070211;
+font-size: 48px;
+font-weight: 700;
+padding: 20px 0px 45px 0;
+}
+/* welcome section start */
+.welcome {
+    display: flex;
+    background-image: url('/image/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 100px auto;
+    background-position: center;
+}
+.welcome-content {
+    justify-content: space-between;
+    padding: 160px 125px;
+}
+.welcome-tittle {
+    color: #FFF;
+font-size: 64px;
+font-weight: 900;
+letter-spacing: 7.04px;
+}
+.welcome-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    line-height: 30px; /* 166.667% */
+    padding: 20px 0px 45px 0px;
+}
+.welcome-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.welcome-img{
+    padding-top: 60px;
+    width: 319.83px;
+height: 464.662px;
 }
