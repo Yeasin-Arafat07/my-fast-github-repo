@@ -19,6 +19,9 @@ body {
     font-weight: 700;
     text-transform: uppercase;
 }
+ main section {
+    margin-top: 100px;
+}
 /* banner style */
 .banner {
     background-image: url('./image/resources/Banner Image.png');
