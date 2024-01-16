@@ -182,7 +182,7 @@ letter-spacing: 7.04px;
 }
 .subscribe-form {
     display: flex;
-    padding-left: 60px;
+    justify-content: center;
     
 }
 /* footer section start */
@@ -198,9 +198,15 @@ letter-spacing: 7.04px;
 }
 .footer-img {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 .footer-foot {
     display: flex;
     justify-content: space-around;
+}
+.f-content {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
 }
