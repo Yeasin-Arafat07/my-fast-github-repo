@@ -23,7 +23,7 @@ body {
 }
 /* banner style */
 .banner {
-    background-image: url('/image/resources/Banner Image.png');
+    background-image: url('./image/resources/Banner Image.png');
     width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -70,7 +70,7 @@ padding: 20px 0px 45px 0;
 /* welcome section start */
 .welcome {
     display: flex;
-    background-image: url('/image/resources/Vectorrr.png');
+    background-image: url('./image/resources/Vectorrr.png');
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
@@ -159,8 +159,8 @@ letter-spacing: 7.04px;
 /* portfolio section */
 .portfolio-section {
     width: 1320px;
-    height: 482px;
-    margin: 0 auto;
+    height: 1182px;
+    margin: 50px auto;
 }
 .portfolio-section p {
     color: rgba(7, 2, 17, 0.60);
@@ -170,4 +170,37 @@ letter-spacing: 7.04px;
 }
 .first-portfolio, .second-portfolio img {
     border-radius: 16px;
+}
+/* subscribe section */
+.subscribe {
+    width: 1320px;
+    height: 616px;
+    margin: 60px auto;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-form {
+    display: flex;
+    padding-left: 60px;
+    
+}
+/* footer section start */
+.footer {
+    background: rgb(201, 86, 86);
+    /* width: 1600px; */
+    height: 609px;
+    margin-top: 40px;
+}
+.footer-head {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-img {
+    display: flex;
+    align-items: center;
+}
+.footer-foot {
+    display: flex;
+    justify-content: space-around;
 }
